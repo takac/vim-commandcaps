@@ -12,5 +12,8 @@ command! -bang -nargs=0 QA qa<bang>
 
 command! -bang -nargs=0 Q quit<bang>
 
+command! -bang -nargs=0 Wa wa<bang>
+command! -bang -nargs=0 WA wa<bang>
+
 command! -bang -nargs=0 Xa xa<bang>
 command! -bang -nargs=0 XA xa<bang>
