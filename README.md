@@ -16,6 +16,8 @@ Commands fixed
 	:Wqa
 	:Qa
 	:QA
+	:Wa
+	:WA
 	:Xa
 	:XA
 
