@@ -1,7 +1,7 @@
-command! -bang -range=% -complete=file -nargs=* W <line1>,<line2>w<bang> <args>
+command! -bang -range=% -complete=file -nargs=? W <line1>,<line2>w<bang> <args>
 
-command! -bang -range=% -complete=file -nargs=* Wq <line1>,<line2>wq<bang> <args>
-command! -bang -range=% -complete=file -nargs=* WQ <line1>,<line2>wq<bang> <args>
+command! -bang -range=% -complete=file -nargs=? Wq <line1>,<line2>wq<bang> <args>
+command! -bang -range=% -complete=file -nargs=? WQ <line1>,<line2>wq<bang> <args>
 
 command! -nargs=* WQA wqa <args>
 command! -nargs=* WQa wqa <args>
