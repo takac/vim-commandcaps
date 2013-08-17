@@ -23,4 +23,6 @@ if has('user_commands')
 
   command -bang -nargs=0 Xa xa<bang>
   command -bang -nargs=0 XA xa<bang>
+  
+  command -nargs=* Tabe tabe <args>
 endif
