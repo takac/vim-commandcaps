@@ -20,6 +20,7 @@ Commands fixed
 	:WA
 	:Xa
 	:XA
+	:Tabe
 
 ### Installation
 I recommend installing using [Vundle](https://github.com/gmarik/vundle):
