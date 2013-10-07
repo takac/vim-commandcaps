@@ -21,6 +21,18 @@ Commands fixed
 	:Xa
 	:XA
 
+### Options
+
+If a command for the abbrevations listed above already exist they will *not* be
+overwritten unless you add the following your `.vimrc`.
+
+    let g:commandcaps_override = 1
+
+This will make commandcaps override any commands that have been mapped before
+this script gets run. This issue may occur when used in conjunction with
+[vim-eunuch](https://github.com/tpope/vim-eunuch) which also has a command on
+`:W`.
+
 ### Installation
 I recommend installing using [Vundle](https://github.com/gmarik/vundle):
 
