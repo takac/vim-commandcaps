@@ -31,15 +31,15 @@ if has('user_commands')
     command! -nargs=* Wqa wqa <args>
   endif
 
+  if !exists(":Q") || g:commandcaps_override
+    command! -bang -nargs=0 Q quit<bang>
+  endif
+
   if !exists(":Qa") || g:commandcaps_override
     command! -bang -nargs=0 Qa qa<bang>
   endif
   if !exists(":QA") || g:commandcaps_override
     command! -bang -nargs=0 QA qa<bang>
-  endif
-
-  if !exists(":Q") || g:commandcaps_override
-    command! -bang -nargs=0 Q quit<bang>
   endif
 
   if !exists(":Wa") || g:commandcaps_override
